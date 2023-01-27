@@ -23,6 +23,8 @@
    
 }
 
+/* Header */
+
 .header {
     border: 1px solid black;
     display: grid;
@@ -50,6 +52,8 @@
         "main__content-line main__content-line main__content-line"
         "main__nav main__nav main__nav";
     }
+
+    /*Logo and basket buttton */
 
     .main__logo-line {
         display: flex;
@@ -83,7 +87,7 @@
         
     }
 
-
+/*Title-line  */
 
    
     .main__title-line {
@@ -91,7 +95,7 @@
         font-family:'Intro Caps Bold',serif;
     }
 
-/* Maint content part  */
+/* Maint content */
 
     .main__content-line {
         grid-area: main__content-line;
@@ -154,8 +158,6 @@
     
     
 }
-
-
 
 .main__button_sign {
     margin: 10px;

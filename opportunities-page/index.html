@@ -4,95 +4,124 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>BEM Page</title>
+    <title>BEM Opportunities Page</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@1,400;1,700&family=Playfair+Display:ital@1&family=Roboto+Slab:wght@300&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@1,400;1,700&family=Playfair+Display:ital@1&family=Roboto+Slab:wght@300&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
 
     <link rel="stylesheet" href="assets/styles/normalize.css" />
     <link rel="stylesheet" href="assets/styles/style.css" />
   </head>
   <body>
     <div class="wrapper">
-        <!-- Header -->
-  
-        <header class="header"><p class="header__title">VR</p></header>
-  
-        <!-- Main-part -->
+      <!-- Header -->
 
-<main class="main">
+      <header class="header"><p class="header__title">VR</p></header>
 
-    <!-- Logo and basket buttton -->
+      <!-- Main-part -->
 
-    <div class="main__logo-line">
-        <img class="logo" src="assets/img/logo.png" alt="logo" />
-        
-            <button class="main__button main__button_small">
-              Корзина
-              <img src="assets/img/basket-button-icon.png" alt="basket-icon" />
-            </button>
-          
+      <main class="main">
+        <!-- Logo and basket buttton -->
+
+        <div class="main__logo-line">
+          <img class="logo main__logo" src="assets/img/logo.png" alt="logo" />
+
+          <button class="button main__button main__button_small">
+            Корзина
+            <img src="assets/img/basket-button-icon.png" alt="basket-icon" />
+          </button>
+        </div>
+
+        <!-- Title-line -->
+
+        <div class="main__title-line"><h1>Возможности</h1></div>
+
+        <!-- Main content  -->
+
+        <div class="main__content-line">
+          <div class="card card-1">
+            <img
+              class="card__img"
+              src="assets/img/opp-1.png"
+              alt="opportunity 1"
+            />
+            <h2 class="card__title">Без проводов</h2>
+            <p class="card__text">
+              Шлем работает без проводов. Не нужен ни компьютер, ни внешнее
+              питание, ни большое помещение, чтобы расставить трекеры.
+            </p>
+          </div>
+
+          <div class="card card-2">
+            <img
+              class="card__img"
+              src="assets/img/opp-2.png"
+              alt="opportunity 2"
+            />
+            <h2 class="card__title">Без компьютера</h2>
+            <p class="card__text">
+              Современным VR-шлемам нужен мощный компьютер, чтобы запускать
+              игры. Наш шлем запускает игры из облака, поэтому просто
+              наслаждайтесь.
+            </p>
+          </div>
+
+          <div class="card card-3">
+            <img
+              class="card__img"
+              src="assets/img/opp-3.png"
+              alt="opportunity 3"
+            />
+            <h2 class="card__title">До 10 часов работы</h2>
+            <p class="card__text">
+              Несмотря на компактность и производительность, шлем может работать
+              до 10 часов — даже, если вы играете в самые ресурсоемкие игры.
+            </p>
+          </div>
+
+          <div class="card card-4">
+            <h2 class="card__title">Сотни игр</h2>
+            <p class="card__text">
+              Уже сейчас вам доступно более сотни игр: от высокобюджетных
+              ААА-тайтлов до маленьких независимых проектов. Скоро их станет еще
+              больше.
+            </p>
+          </div>
+
+          <div class="card card-5">
+            <h2 class="card__title">Почти даром</h2>
+            <p class="card__text">
+              По сравнению с другими VR-шлемами наш стоит гораздо меньше. И вы
+              существенно экономите на мощном компьютере.
+            </p>
+          </div>
+
+          <div class="card subscribe">
+            <h2 class="card__title card__title_subscribe">Новости</h2>
+            <input
+              class="subscribe__contact"
+              type="email"
+              placeholder="Эл. почта"
+            />
+            <button class="button subscribe__button">Подписаться</button>
+          </div>
+        </div>
+      </main>
+
+      <!-- Footer -->
+
+      <footer class="footer">
+        <nav class="footer__nav">
+          <a class="footer__link" href="#">Возможности</a>
+          <a class="footer__link" href="#">Где купить</a>
+          <a class="footer__link" href="#">Доставка</a>
+          <a class="footer__link" href="#">Помощь</a>
+        </nav>
+      </footer>
     </div>
-
-    <!-- Title-line -->
-
-    <div class="main__title-line"><h1>Возможности</h1></div>
-
-    <!-- Main content  -->
-
-    <div class="main__content-line">
-        
-<div class="main__content-line__item1">
-<img class="content__img" src="assets/img/opp-1.png" alt="opportunity 1">
-<h2 class="content-line__title">Без проводов</h2>
-<p class="content-line__text">Шлем работает без проводов. Не нужен ни компьютер, ни внешнее питание, ни большое помещение, чтобы расставить трекеры.</p>
-</div>
-
-    
-<div class="main__content-line__item2">
-<img class="content__img" src="assets/img/opp-2.png" alt="opportunity 2">
-    <h2 class="content-line__title">Без компьютера</h2>
-        <p class="content-line__text">Современным VR-шлемам нужен мощный компьютер, чтобы запускать игры. Наш шлем запускает игры из облака, поэтому просто наслаждайтесь.</p>
-    </div>
-
-    <div class="main__content-line__item3">
-        <img  class="content__img"src="assets/img/opp-3.png" alt="opportunity 3">
-        <h2 class="content-line__title">До 10 часов работы</h2>
-        <p class="content-line__text">Несмотря на компактность и производительность, шлем может работать до 10 часов — даже, если вы играете в самые ресурсоемкие игры.</p>
-    </div>
-
-    <div class="main__content-line__item4">
-        <h2 class="content-line__title">Сотни игр</h2>
-        <p class="content-line__text">Уже сейчас вам доступно более сотни игр: от высокобюджетных ААА-тайтлов до маленьких независимых проектов. Скоро их станет еще больше.</p>
-    </div>
-
-    <div class="main__content-line__item5">
-        <h2 class="content-line__title">Почти даром</h2>
-        <p class="content-line__text">По сравнению с другими VR-шлемами наш стоит гораздо меньше. И вы существенно экономите на мощном компьютере.</p>
-    </div>
-
-    <div class="main__content-line__item6">
-        <div>
-        <h1 class="content-line__title  content-line__title_news">Новости</h1>
- <input type="email" placeholder="Эл. почта">
- <button class="main__button main__button_sign">
-Подписаться</button>
-</div>
-    </div>
-    </div>
-
-    <!-- Navigation -->
-
-    <nav class="main__nav">
-        <a class="main__nav__link" href="#">Возможности</p</a>
-        <a class="main__nav__link" href="#">Где купить</a>
-        <a class="main__nav__link" href="#">Доставка</a>
-        <a class="main__nav__link" href="#">Помощь</a>
-      </nav>
-    
-</div>
-
-</main>
   </body>
 </html>

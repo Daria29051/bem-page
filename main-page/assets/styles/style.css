@@ -20,8 +20,7 @@
     "header header header header header header header"
     "main main main main main main main";
     padding-bottom: 5vh;
-   margin: 0 20px;
-   
+    margin: 0 40px;
 }
 
 .header {
@@ -30,10 +29,10 @@
 }
 
 .header__title {
-align-self: center;
-justify-self: center;
-font-family: 'Roboto Slab','Arial', serif;
-color: E5E5E5;
+    align-self: center;
+    justify-self: center;
+    font-family: 'Roboto Slab','Arial', serif;
+    color: rgba(128, 128, 128, 0.5);
 }
 
 /* Main-part-left */
@@ -42,15 +41,12 @@ color: E5E5E5;
     display: grid;
     grid-template-columns: 1fr 1.5fr;
     grid-template-areas: "main__text main__picture";
-    border: 1px solid red;
     grid-area: main;
 }
 
 .logo {
     grid-area: logo;
-    border: 1px solid black;
 }
-
 
 .main__content {
     display: grid;
@@ -63,17 +59,12 @@ color: E5E5E5;
     "buy__button"
     "main__nav";
     grid-area: main__text;
-    
 }
-
 
 .main__title {
     grid-area: main__title;
     font-family:'Intro Caps Bold',serif;
     font-size: 25px;
-    border: 1px solid black;
-    margin-top: 20px;
-
 }
 
 .main__text {
@@ -82,12 +73,9 @@ color: E5E5E5;
     font-weight: 300;
     font-size: 20px;
     line-height: 32px;
-    border: 1px solid black; 
-    margin-top: 20px; 
 }
 
-.button {
-margin-top: 20px;
+.buy__button {
 grid-area: buy__button;
 }
 
@@ -98,7 +86,8 @@ grid-area: buy__button;
     font-family:'Intro Caps Bold',serif;
     font-style: normal;
     border-radius: 50px;
-    margin: 20px;
+    margin-top: 20px;
+    
 }
 
 .main__button_big {
@@ -106,43 +95,38 @@ grid-area: buy__button;
     height: 60px;
     font-size: 25px;
     
+    
 }
 
 .main__button_small{
     font-size: 12px; 
     height: 30px;
     width: 100px;
- }
+    margin-top: 0;
+    margin-right: 0;
+}
 
 
 .main__nav {
     grid-area: main__nav;
-    border: 1px solid black;
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    
+    align-items: center;   
 }
 
-.main__nav__link {
+.main__link {
     text-decoration: none;
     color: #5222D0;
     font-family: 'Roboto Slab','Arial', serif;
 }
 
 
-
-.main__nav {
-    grid-area: main__nav;
-    border: 1px solid black;
-}
-
 /* Main-part-right */
 
 .main__picture {
     display: grid;
+    justify-items: end;
     grid-area: main__picture;
-    border: 1px solid black;
     grid-template-rows: auto auto;
     grid-template-columns: 1fr;
     grid-template-areas: 
@@ -157,9 +141,7 @@ grid-area: buy__button;
 .basket__button {
     display: grid;
     grid-area: basket__button;
-    border: 6px solid goldenrod;
-    justify-items: end; 
-    
+    justify-items: end;   
 }
 
 
